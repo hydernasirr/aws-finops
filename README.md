@@ -224,22 +224,7 @@ tagging:
 ---
 
 ##  Use Cases
-
-### For Startups
-- Track burn rate and extend runway
-- Optimize cost per customer
-- Prepare for investor meetings
-
-### For Enterprises
-- Multi-account cost allocation
-- Showback/chargeback reporting
-- Compliance and governance
-
-### For Consultants
-- Client cost audits
-- ROI demonstration
-- Ongoing optimization services
-
+Created for Internal Team Use to optimize AWS cost
 ---
 
 ## Security
@@ -337,11 +322,3 @@ This platform helps you take control through:
 - **Governance enforcement** to prevent future waste
 
 ---
-
-<div align="center">
-
-### ⭐ If this saves you money, please star the repo! ⭐
-
-**Built with ☕ by FinOps practitioners, for FinOps practitioners**
-
-</div>
