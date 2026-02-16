@@ -1,4 +1,4 @@
-# AWS FinOps Platform 🚀
+# AWS FinOps Platform 
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -10,41 +10,41 @@ Detects waste, optimizes spend, forecasts costs, and enforces governance across 
 
 ---
 
-## 🎯 Features
+##  Features
 
-### 💰 Cost Visibility
+###  Cost Visibility
 - Multi-dimensional cost breakdown (Service, Team, Environment, Application)
 - Historical trend analysis
 - Budget vs actual tracking
 - Unit economics (cost per customer, per transaction)
 
-### 🔍 Waste Detection
+###  Waste Detection
 - **Compute:** Idle EC2 (<5% CPU), stopped instances, over-provisioned resources
 - **Storage:** Unattached EBS volumes, old snapshots (90+ days), unused EIPs
 - **Database:** Idle RDS instances, underutilized capacity
 - **Network:** Unused NAT Gateways, data transfer inefficiencies
 
-### ⚙️ Optimization Engine
+###  Optimization Engine
 - Right-sizing recommendations (CPU/Memory analysis)
 - Reserved Instance & Savings Plan optimization
 - Storage class recommendations (S3, EBS)
 - Architecture improvements (serverless migration candidates)
 - Graviton2/3 migration opportunities
 
-### 📈 Cost Forecasting
+###  Cost Forecasting
 - ML-based predictions (3/6/12/24 month forecasts)
 - Scenario modeling (baseline, conservative, aggressive optimization)
 - Growth impact analysis
 - Confidence intervals
 
-### 🛡️ Governance & Control
+###  Governance & Control
 - Tag compliance checking
 - Budget threshold alerts
 - Policy violation detection
 - Anomaly detection (unusual spend spikes)
 - Auto-remediation capabilities
 
-### 📊 Professional Reporting
+###  Professional Reporting
 - Executive summaries (PDF/HTML)
 - Detailed analysis reports
 - CSV export for automation
@@ -52,7 +52,7 @@ Detects waste, optimizes spend, forecasts costs, and enforces governance across 
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ```bash
 # Clone the repository
@@ -72,14 +72,14 @@ python finops.py --analyze
 
 ---
 
-## 📊 Sample Output
+## Sample Output
 
 ```
 ═══════════════════════════════════════════════════════════════
 AWS FINOPS ANALYSIS REPORT
 ═══════════════════════════════════════════════════════════════
 
-💰 EXECUTIVE SUMMARY
+EXECUTIVE SUMMARY
 Current Monthly Spend: $45,234.50
 Identified Waste: $13,450.00 (29.7%)
 Annual Impact: $161,400.00
@@ -106,7 +106,7 @@ Projected Savings:                  $196,000
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 aws-finops-platform/
@@ -223,7 +223,7 @@ tagging:
 
 ---
 
-## 🎯 Use Cases
+##  Use Cases
 
 ### For Startups
 - Track burn rate and extend runway
@@ -242,7 +242,7 @@ tagging:
 
 ---
 
-## 🔒 Security
+## Security
 
 - **Read-only AWS access** - Never modifies infrastructure
 - **No data storage** - Analysis happens on-demand
